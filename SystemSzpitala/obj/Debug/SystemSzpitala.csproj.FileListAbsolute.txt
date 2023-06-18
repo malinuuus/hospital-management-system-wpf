@@ -1,0 +1,102 @@
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\Logowanie.exe.config
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\Logowanie.exe
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\Logowanie.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\ControlzEx.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\MahApps.Metro.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\ProjektZaliczeniowyKlasy.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\ProjektZaliczeniowyKlasy.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\ControlzEx.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\ControlzEx.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\MahApps.Metro.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\MahApps.Metro.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\SystemSzpitala.csproj.AssemblyReference.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\SystemSzpitala.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Views\HomeWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\App.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Logowanie_MarkupCompile.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Logowanie_MarkupCompile.lref
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\App.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Views\HomeWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Views\LoginWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Views\MainWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Logowanie.g.resources
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Logowanie.Properties.Resources.resources
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\SystemSzpitala.csproj.GenerateResource.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\SystemSzpitala.csproj.CoreCompileInputs.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\SystemSzpitala.csproj.CopyComplete
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Logowanie.exe
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\Logowanie\obj\Debug\Logowanie.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\ControlzEx.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\MahApps.Metro.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\ControlzEx.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\ControlzEx.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\MahApps.Metro.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\MahApps.Metro.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.AssemblyReference.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\Views\HomeWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\App.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\App.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\Views\HomeWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\Views\LoginWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\Views\MainWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.GenerateResource.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.CoreCompileInputs.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.CopyComplete
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\SystemSzpitala.exe.config
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\SystemSzpitala.exe
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\SystemSzpitala.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala_MarkupCompile.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala_MarkupCompile.lref
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.g.resources
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.Properties.Resources.resources
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.exe
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\obj\Debug\SystemSzpitala.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\BibliotekaKlas.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy\SystemSzpitala\bin\Debug\BibliotekaKlas.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\SystemSzpitala.exe.config
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\SystemSzpitala.exe
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\SystemSzpitala.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\BibliotekaKlas.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\ControlzEx.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\MahApps.Metro.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\BibliotekaKlas.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\ControlzEx.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\ControlzEx.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\MahApps.Metro.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\MahApps.Metro.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\bin\Debug\de\MahApps.Metro.resources.dll
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.AssemblyReference.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.SuggestedBindingRedirects.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\Views\HomeWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\App.g.cs
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala_MarkupCompile.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala_MarkupCompile.lref
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\App.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\Views\HomeWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\Views\LoginWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\Views\MainWindow.baml
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.g.resources
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.Properties.Resources.resources
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.GenerateResource.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.CoreCompileInputs.cache
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.csproj.CopyComplete
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.exe
+C:\Users\Tomasz\source\repos\ProjektZaliczeniowy - z MahApps Metro\SystemSzpitala\obj\Debug\SystemSzpitala.pdb

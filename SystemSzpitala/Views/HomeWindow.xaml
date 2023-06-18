@@ -1,0 +1,124 @@
+﻿<Window x:Class="SystemSzpitala.Views.HomeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SystemSzpitala.ViewModels" d:DataContext="{d:DesignInstance Type=local:HomeViewModel}"
+        xmlns:klasy="clr-namespace:BibliotekaKlas;assembly=BibliotekaKlas"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        Title="System administracyjny szpitala" Height="450" Width="800"
+        WindowState="Maximized">
+
+    <Window.Resources>
+        <ObjectDataProvider x:Key="dataFromEnum" MethodName="GetValues" ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="klasy:Specjalnosc"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.Resources>
+            <DataTemplate x:Key="zmianaDanychBtn">
+                <Button Content="Zmień dane" Click="ZmienDane" />
+            </DataTemplate>
+            
+            <DataTemplate x:Key="usuniecieDyzuruBtn">
+                <Button Content="Usuń" Click="UsunDyzur" />
+            </DataTemplate>
+        </Grid.Resources>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <Label Content="Witaj" Grid.ColumnSpan="2" VerticalAlignment="Center" Name="WelcomingLabel" FontSize="26" />
+        <DataGrid Grid.Row="1" Grid.RowSpan="2" Grid.ColumnSpan="3" Name="listaUzytkownikowDataGrid" AutoGenerateColumns="False" IsReadOnly="True" SelectionMode="Single" SelectionUnit="FullRow" SelectedItem="{Binding WybranyUzytkownik}" CanUserReorderColumns="False" CanUserResizeColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Nazwa użytkownika" Binding="{Binding NazwaUzytkownika}" x:Name="kolumnaNazwa" />
+                <DataGridTextColumn Header="Imię" Binding="{Binding Imie}" />
+                <DataGridTextColumn Header="Nazwisko" Binding="{Binding Nazwisko}" />
+                <DataGridTextColumn Header="Posada" Binding="{Binding Posada}" />
+                <DataGridTextColumn Header="Pesel" Binding="{Binding Pesel}" x:Name="kolumnaPesel" />
+                <DataGridTextColumn Header="Specjalność" Binding="{Binding Specjalnosc}" />
+                <DataGridTextColumn Header="Numer PWZ" Binding="{Binding NumerPWZ}" x:Name="kolumnaPWZ" />
+                <DataGridTemplateColumn CellTemplate="{StaticResource zmianaDanychBtn}" x:Name="kolumnaZmianaDanych" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Grid.Column="3" Content="Dyżury" FontSize="20" VerticalAlignment="Bottom" />
+        
+        <DataGrid Grid.Row="1" Grid.Column="3" Grid.ColumnSpan="2" Name="listaDyzurowDataGrid" AutoGenerateColumns="False" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" SelectedItem="{Binding WybranyDyzur}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Dzień" Binding="{Binding Data.Day}" />
+                <DataGridTextColumn Header="Miesiąc" Binding="{Binding Data.Month}" />
+                <DataGridTextColumn Header="Rok" Binding="{Binding Data.Year}" />
+                <DataGridTemplateColumn CellTemplate="{StaticResource usuniecieDyzuruBtn}" x:Name="usuniecieDyzuruKolumna" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Grid Grid.Row="2" Grid.Column="3" Grid.ColumnSpan="2" Name="wyborDaty">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="1">
+                <Label Content="Dodaj dyżur" />
+                <DatePicker SelectedDate="{Binding DataDyzuru}" Margin="0,10,0,10" />
+                <Button Content="Dodaj" Click="DodajDyzur" />
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="3" VerticalAlignment="Center" HorizontalAlignment="Center" Name="posadaStkPanel">
+            <RadioButton GroupName="typUzytkownika" IsChecked="{Binding CzyAdministrator}">Administator</RadioButton>
+            <RadioButton GroupName="typUzytkownika" IsChecked="{Binding CzyLekarz}">Lekarz</RadioButton>
+            <RadioButton GroupName="typUzytkownika" IsChecked="{Binding CzyPielegniarka}">Pielęgniarka</RadioButton>
+        </StackPanel>
+
+        <Grid Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="4" Name="nowyUzytkownikGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <Label Grid.ColumnSpan="2" Content="{Binding TytulPolaEdycji}" VerticalAlignment="Bottom" FontSize="14" />
+            
+            <TextBox Grid.Row="1" VerticalAlignment="Top" Text="{Binding NazwaUzytkownika}" Padding="5" mah:TextBoxHelper.Watermark="Nazwa użytkownika" />
+            <PasswordBox Grid.Row="1" Grid.Column="1" VerticalAlignment="Top" Name="passwordBox" PasswordChanged="PasswordBox_ZmianaHasla" Padding="5" mah:TextBoxHelper.Watermark="Hasło" />
+            <TextBox Grid.Row="1" Grid.Column="2" VerticalAlignment="Top" Text="{Binding Imie}" Padding="5" mah:TextBoxHelper.Watermark="Imię" />
+            <TextBox Grid.Row="1" Grid.Column="3" VerticalAlignment="Top" Text="{Binding Nazwisko}" Padding="5" mah:TextBoxHelper.Watermark="Nazwisko" />
+            <TextBox Grid.Row="1" Grid.Column="4" VerticalAlignment="Top" Text="{Binding Pesel}" Padding="5" mah:TextBoxHelper.Watermark="Pesel" />
+            <ComboBox Grid.Row="1" Grid.Column="5" VerticalAlignment="Top" Text="{Binding Specjalnosc}" ItemsSource="{Binding Source={StaticResource dataFromEnum}}" IsEnabled="{Binding CzyLekarz}" Padding="5" mah:TextBoxHelper.Watermark="Specjalność" />
+            <TextBox Grid.Row="1" Grid.Column="6" VerticalAlignment="Top" Text="{Binding NumerPWZ}" IsEnabled="{Binding CzyLekarz}" Padding="5" mah:TextBoxHelper.Watermark="Numer PWZ" />
+            <Button Grid.Row="1" Grid.Column="7" VerticalAlignment="Top" Content="{Binding TytulPrzyciskuEdycji}" Click="ZmienDodajUzytkownika" Name="dodajButton" />
+        </Grid>
+
+        <StackPanel Grid.Column="4" VerticalAlignment="Center">
+            <Button Content="Zapisz" Click="ZapiszDane" Margin="0,0,0,5" Name="zapiszButton" />
+            <Button Content="Wyloguj się" Click="WylogujSie" Margin="0,5,0,0" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,6 @@
+C:\Users\Tomasz\Desktop\studia\programowanie obiektowe\ProjektZaliczeniowyKlasy\ProjektZaliczeniowyKlasy\bin\Debug\ProjektZaliczeniowyKlasy.dll
+C:\Users\Tomasz\Desktop\studia\programowanie obiektowe\ProjektZaliczeniowyKlasy\ProjektZaliczeniowyKlasy\bin\Debug\ProjektZaliczeniowyKlasy.pdb
+C:\Users\Tomasz\Desktop\studia\programowanie obiektowe\ProjektZaliczeniowyKlasy\ProjektZaliczeniowyKlasy\obj\Debug\ProjektZaliczeniowyKlasy.csproj.AssemblyReference.cache
+C:\Users\Tomasz\Desktop\studia\programowanie obiektowe\ProjektZaliczeniowyKlasy\ProjektZaliczeniowyKlasy\obj\Debug\ProjektZaliczeniowyKlasy.csproj.CoreCompileInputs.cache
+C:\Users\Tomasz\Desktop\studia\programowanie obiektowe\ProjektZaliczeniowyKlasy\ProjektZaliczeniowyKlasy\obj\Debug\ProjektZaliczeniowyKlasy.dll
+C:\Users\Tomasz\Desktop\studia\programowanie obiektowe\ProjektZaliczeniowyKlasy\ProjektZaliczeniowyKlasy\obj\Debug\ProjektZaliczeniowyKlasy.pdb

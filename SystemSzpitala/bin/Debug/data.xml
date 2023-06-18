@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<ArrayOfUzytkownik xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Uzytkownik xsi:type="Administrator">
+    <Imie>Tomasz</Imie>
+    <Nazwisko>Malinowski</Nazwisko>
+    <Pesel>0222131312</Pesel>
+    <NazwaUzytkownika>admin</NazwaUzytkownika>
+    <Haslo>12345</Haslo>
+  </Uzytkownik>
+  <Uzytkownik xsi:type="Lekarz">
+    <Imie>Henryk</Imie>
+    <Nazwisko>Kowalczyk</Nazwisko>
+    <Pesel>0231903111</Pesel>
+    <NazwaUzytkownika>drhenry</NazwaUzytkownika>
+    <Haslo>12345</Haslo>
+    <ListaDyzurow>
+      <Dyzur>
+        <Data>2023-01-04T00:00:00</Data>
+      </Dyzur>
+      <Dyzur>
+        <Data>2023-01-11T00:00:00+01:00</Data>
+      </Dyzur>
+    </ListaDyzurow>
+    <SpecjalnoscString>NEUROLOG</SpecjalnoscString>
+    <NumerPWZ>2390182391</NumerPWZ>
+  </Uzytkownik>
+  <Uzytkownik xsi:type="Pielegniarka">
+    <Imie>Monika</Imie>
+    <Nazwisko>Nowak</Nazwisko>
+    <Pesel>023901392103</Pesel>
+    <NazwaUzytkownika>monika</NazwaUzytkownika>
+    <Haslo>12345</Haslo>
+    <ListaDyzurow>
+      <Dyzur>
+        <Data>2022-12-14T00:00:00</Data>
+      </Dyzur>
+      <Dyzur>
+        <Data>2023-01-08T00:00:00+01:00</Data>
+      </Dyzur>
+      <Dyzur>
+        <Data>2023-01-10T00:00:00</Data>
+      </Dyzur>
+      <Dyzur>
+        <Data>2023-01-16T00:00:00+01:00</Data>
+      </Dyzur>
+      <Dyzur>
+        <Data>2023-01-26T00:00:00</Data>
+      </Dyzur>
+    </ListaDyzurow>
+  </Uzytkownik>
+  <Uzytkownik xsi:type="Lekarz">
+    <Imie>Andrzej</Imie>
+    <Nazwisko>Kamiński</Nazwisko>
+    <Pesel>2913091203</Pesel>
+    <NazwaUzytkownika>andrew</NazwaUzytkownika>
+    <Haslo>12345</Haslo>
+    <ListaDyzurow>
+      <Dyzur>
+        <Data>2023-01-05T00:00:00</Data>
+      </Dyzur>
+      <Dyzur>
+        <Data>2023-01-18T00:00:00</Data>
+      </Dyzur>
+    </ListaDyzurow>
+    <SpecjalnoscString>NEUROLOG</SpecjalnoscString>
+    <NumerPWZ>2103821078</NumerPWZ>
+  </Uzytkownik>
+</ArrayOfUzytkownik>
